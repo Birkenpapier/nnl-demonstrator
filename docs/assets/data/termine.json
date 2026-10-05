@@ -1,0 +1,90 @@
+[
+ {
+  "id": "t1",
+  "titel": "Geführte Wanderung am Biberpfad",
+  "beginn": "2026-10-10T10:00",
+  "ende": "2026-10-10T13:00",
+  "art": "Führung",
+  "gebiet": "Königsbrücker Heide",
+  "ort": "Treffpunkt nach Buchung",
+  "text": "Unterwegs mit der Geländeführung: Spuren des Bibers, Blick vom Aussichtsturm und Rast an der Biberhütte.",
+  "beispiel": true
+ },
+ {
+  "id": "t2",
+  "titel": "Busführung durch die Königsbrücker Heide",
+  "beginn": "2026-10-17T09:30",
+  "ende": "2026-10-17T13:30",
+  "art": "Busführung",
+  "gebiet": "Königsbrücker Heide",
+  "ort": "Königsbrück",
+  "text": "Mit dem Bus durch die Heide, begleitet von der Geländeführung. Teilnahme nur mit Buchung.",
+  "beispiel": true
+ },
+ {
+  "id": "t3",
+  "titel": "Heidepflege zum Mitmachen",
+  "beginn": "2026-10-24T09:00",
+  "ende": "2026-10-24T14:00",
+  "art": "Mitmachaktion",
+  "gebiet": "Gohrischheide",
+  "ort": "Zeithain",
+  "text": "Gemeinsam halten wir Heideflächen offen. Arbeitshandschuhe und feste Schuhe mitbringen.",
+  "beispiel": true
+ },
+ {
+  "id": "t4",
+  "titel": "Vortrag: Wie Wildnis entsteht",
+  "beginn": "2026-11-05T18:00",
+  "ende": "2026-11-05T19:30",
+  "art": "Vortrag",
+  "gebiet": "Königsbrücker Heide",
+  "ort": "Königsbrück",
+  "text": "Was passiert, wenn der Mensch nicht mehr eingreift? Ein Abend über Prozessschutz und Monitoring.",
+  "beispiel": true
+ },
+ {
+  "id": "t5",
+  "titel": "Spurensuche für Familien",
+  "beginn": "2026-11-14T10:00",
+  "ende": "2026-11-14T12:00",
+  "art": "Familie",
+  "gebiet": "Königsbrücker Heide",
+  "ort": "Treffpunkt nach Buchung",
+  "text": "Fährten lesen und Fraßspuren finden. Geeignet für Kinder ab sechs Jahren.",
+  "beispiel": true
+ },
+ {
+  "id": "t6",
+  "titel": "Busführung durch die Gohrischheide",
+  "beginn": "2026-11-21T10:00",
+  "ende": "2026-11-21T13:00",
+  "art": "Busführung",
+  "gebiet": "Gohrischheide",
+  "ort": "Zeithain",
+  "text": "Sandheiden, Binnendünen und die Spuren der militärischen Nutzung, erklärt von der Geländeführung.",
+  "beispiel": true
+ },
+ {
+  "id": "t7",
+  "titel": "Wintervögel beobachten",
+  "beginn": "2026-12-05T09:00",
+  "ende": "2026-12-05T11:30",
+  "art": "Führung",
+  "gebiet": "Gohrischheide",
+  "ort": "Treffpunkt nach Buchung",
+  "text": "Bitte warme Kleidung und, wenn vorhanden, ein Fernglas mitbringen.",
+  "beispiel": true
+ },
+ {
+  "id": "t8",
+  "titel": "Junior-Ranger-Treffen",
+  "beginn": "2027-01-16T10:00",
+  "ende": "2027-01-16T13:00",
+  "art": "Kinder und Jugend",
+  "gebiet": "Königsbrücker Heide",
+  "ort": "Königsbrück",
+  "text": "Das erste Treffen im neuen Jahr: Wir bauen Nistkästen und planen die Saison.",
+  "beispiel": true
+ }
+]

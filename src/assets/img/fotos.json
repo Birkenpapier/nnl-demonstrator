@@ -1,0 +1,218 @@
+{
+ "held-kh": {
+  "datei": "held-kh",
+  "breiten": [
+   960,
+   1600,
+   2400
+  ],
+  "verhaeltnis": 0.5625,
+  "alt": "Luftbild der Königsbrücker Heide: Der hölzerne Haselbergturm steht zwischen Birken, Kiefern und offenen Flächen mit gelb blühendem Ginster.",
+  "fokus": "50% 45%",
+  "urheber": "Derbrauni",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Haselbergturm.jpg",
+  "titel": "File:Haselbergturm.jpg",
+  "symbolbild": null,
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "kh-blick": {
+  "datei": "kh-blick",
+  "breiten": [
+   960,
+   1600,
+   2400
+  ],
+  "verhaeltnis": 0.6367,
+  "alt": "Blick vom Haselbergturm über geschlossenen Wald bis zum Keulenberg am Horizont.",
+  "fokus": "50% 60%",
+  "urheber": "SchiDD",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:K%C3%B6nigsbr%C3%BCck-Haselbergturm-Blick-1.jpg",
+  "titel": "File:Königsbrück-Haselbergturm-Blick-1.jpg",
+  "symbolbild": null,
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "kh-turm": {
+  "datei": "kh-turm",
+  "breiten": [
+   640,
+   1000,
+   1400
+  ],
+  "verhaeltnis": 1.3336,
+  "alt": "Der hölzerne Haselbergturm vor blauem Himmel, davor junge Birken.",
+  "fokus": "50% 35%",
+  "urheber": "Z thomas",
+  "lizenz": "CC BY 3.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/3.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:K%C3%B6nigsbr%C3%BCck_Aussichtsturm.JPG",
+  "titel": "File:Königsbrück Aussichtsturm.JPG",
+  "symbolbild": null,
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "kh-see": {
+  "datei": "kh-see",
+  "breiten": [
+   640,
+   1000,
+   1400
+  ],
+  "verhaeltnis": 0.6664,
+  "alt": "See der Freundschaft mit Uferweg, Holzbank und kleiner Hütte am Waldrand.",
+  "fokus": "50% 50%",
+  "urheber": "SchiDD",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:K%C3%B6nigsbr%C3%BCck-See-2.jpg",
+  "titel": "File:Königsbrück-See-2.jpg",
+  "symbolbild": null,
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "kh-tafeln": {
+  "datei": "kh-tafeln",
+  "breiten": [
+   640,
+   1000,
+   1400
+  ],
+  "verhaeltnis": 0.6029,
+  "alt": "Uferweg am See der Freundschaft mit zwei überdachten Informationstafeln.",
+  "fokus": "50% 55%",
+  "urheber": "SchiDD",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:K%C3%B6nigsbr%C3%BCck-See-1.jpg",
+  "titel": "File:Königsbrück-See-1.jpg",
+  "symbolbild": null,
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "kh-hirsch": {
+  "datei": "kh-hirsch",
+  "breiten": [
+   640,
+   1000,
+   1400
+  ],
+  "verhaeltnis": 0.6664,
+  "alt": "Ein weiblicher Rothirsch steht im hohen Gras.",
+  "fokus": "40% 40%",
+  "urheber": "Jonaskreische",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Rottier_K%C3%B6nigsbr%C3%BCcker_Heide.jpg",
+  "titel": "File:Rottier Königsbrücker Heide.jpg",
+  "symbolbild": null,
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "kh-flechten": {
+  "datei": "kh-flechten",
+  "breiten": [
+   640,
+   1000,
+   1400
+  ],
+  "verhaeltnis": 1.7779,
+  "alt": "Rötliche Becherflechten auf einem alten Kiefernstumpf, dahinter blühendes Heidekraut und Birken.",
+  "fokus": "50% 60%",
+  "urheber": "Christian Pietzsch",
+  "lizenz": "CC0 1.0",
+  "lizenz_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Cladonia_in_Silbergrasflur.jpg",
+  "titel": "File:Cladonia in Silbergrasflur.jpg",
+  "symbolbild": null,
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "kh-schild": {
+  "datei": "kh-schild",
+  "breiten": [
+   640,
+   1000,
+   1400
+  ],
+  "verhaeltnis": 0.6664,
+  "alt": "Schild am Naturschutzgebiet mit Hinweis auf Kampfmittelbelastung und Betretungsverbot, dahinter junger Wald.",
+  "fokus": "50% 45%",
+  "urheber": "J.-H. Janßen",
+  "lizenz": "CC0 1.0",
+  "lizenz_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Naturschutzgebiet_Koenigsbruecker_Heide_04.jpg",
+  "titel": "File:Naturschutzgebiet Koenigsbruecker Heide 04.jpg",
+  "symbolbild": null,
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "biber": {
+  "datei": "biber",
+  "breiten": [
+   640,
+   1000,
+   1400
+  ],
+  "verhaeltnis": 0.5629,
+  "alt": "Holzschnitzerei mit mehreren Bibern in einem überdachten Unterstand.",
+  "fokus": "50% 50%",
+  "urheber": "Christian Pietzsch",
+  "lizenz": "CC0 1.0",
+  "lizenz_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Schnitzerei_Bieberweg.jpg",
+  "titel": "File:Schnitzerei Bieberweg.jpg",
+  "symbolbild": null,
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "gh-heide": {
+  "datei": "gh-heide",
+  "breiten": [
+   960,
+   1600,
+   2400
+  ],
+  "verhaeltnis": 0.6671,
+  "alt": "Symbolbild: blühende Besenheide mit Birke und jungen Kiefern unter blauem Himmel.",
+  "fokus": "50% 55%",
+  "urheber": "Leonhard Lenz",
+  "lizenz": "CC0 1.0",
+  "lizenz_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Heath_in_NSG_Kleine_Schorfheide_2021-09-02_32.jpg",
+  "titel": "File:Heath in NSG Kleine Schorfheide 2021-09-02 32.jpg",
+  "symbolbild": "Symbolbild aus dem NSG Kleine Schorfheide (Brandenburg)",
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "gh-sand": {
+  "datei": "gh-sand",
+  "breiten": [
+   640,
+   1000,
+   1400
+  ],
+  "verhaeltnis": 0.6671,
+  "alt": "Symbolbild: offener Sand mit blühendem Heidekraut vor Kiefern und Birken.",
+  "fokus": "50% 50%",
+  "urheber": "Leonhard Lenz",
+  "lizenz": "CC0 1.0",
+  "lizenz_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Heath_in_NSG_Kleine_Schorfheide_2021-09-02_01.jpg",
+  "titel": "File:Heath in NSG Kleine Schorfheide 2021-09-02 01.jpg",
+  "symbolbild": "Symbolbild aus dem NSG Kleine Schorfheide (Brandenburg)",
+  "aenderung": "verkleinert und zugeschnitten"
+ },
+ "wiedehopf": {
+  "datei": "wiedehopf",
+  "breiten": [
+   640,
+   1000,
+   1400
+  ],
+  "verhaeltnis": 0.5629,
+  "alt": "Ein Wiedehopf füttert ein Jungtier an einer Baumhöhle.",
+  "fokus": "50% 40%",
+  "urheber": "Mario Steinke",
+  "lizenz": "CC BY 4.0",
+  "lizenz_url": "https://creativecommons.org/licenses/by/4.0",
+  "quelle": "https://commons.wikimedia.org/wiki/File:Upupa_epops,_Landschaftsschutzgebiet_Ruppiner_Wald,_Germany.jpg",
+  "titel": "File:Upupa epops, Landschaftsschutzgebiet Ruppiner Wald, Germany.jpg",
+  "symbolbild": "Symbolbild aus dem Ruppiner Wald (Brandenburg)",
+  "aenderung": "verkleinert und zugeschnitten"
+ }
+}

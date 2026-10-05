@@ -1,0 +1,109 @@
+<!--META {"pfad": "besuchen/besucherpfade/", "titel": "Besucherpfade", "bereich": "besuchen", "bild": "kh-tafeln", "farbe": "mittelblau", "unterzeile": "Wanderpfade, Radrundwege und Aussichtspunkte auf der interaktiven Karte", "css": ["vendor/leaflet/leaflet.css"], "js": ["vendor/leaflet/leaflet.js", "js/karte.js"], "beschreibung": "Interaktive Karte der Besucherpfade in der Königsbrücker Heide und der Gohrischheide."} -->
+<div class="wrap abschnitt">
+  <div class="zweispaltig">
+    <div>
+      <p class="einleitung">Die Besucherpfade laden ein, die Natur allein oder bei einer Führung kennenzulernen. Sie liegen am Rand der Schutzgebiete und sind an die Radrundwege angebunden.</p>
+      <p>Wählen Sie auf der Karte ein Gebiet oder klicken Sie auf einen Umriss. Die Karte zoomt dann hinein und zeigt Pfade und Aussichtspunkte. Ein Klick auf einen Weg oder Punkt öffnet eine Kurzbeschreibung.</p>
+    </div>
+    <div class="infobox infobox--gelb infobox--links">
+      {{icon warnung}}
+      <h2 class="infobox__titel">Sicher unterwegs</h2>
+      <p>Bleiben Sie auf den markierten Wegen. Abseits der Pfade besteht Gefahr durch Munitionsreste.</p>
+    </div>
+  </div>
+
+  <section class="kartenmodul" id="karte-bereich" aria-labelledby="karte-titel">
+    <h2 id="karte-titel">Interaktive Karte</h2>
+    <div class="karte__werkzeuge">
+      <div class="karte__gebiete" role="group" aria-label="Kartenausschnitt wählen">
+        <button type="button" class="knopf knopf--klein" data-gebiet="alle" aria-pressed="true">Beide Gebiete</button>
+        <button type="button" class="knopf knopf--klein" data-gebiet="kh" aria-pressed="false">Königsbrücker Heide</button>
+        <button type="button" class="knopf knopf--klein" data-gebiet="gh" aria-pressed="false">Gohrischheide</button>
+      </div>
+      <fieldset class="karte__ebenen">
+        <legend>Anzeigen</legend>
+        <label class="wahl"><input type="checkbox" data-ebene="pfad" checked> Wanderpfade</label>
+        <label class="wahl"><input type="checkbox" data-ebene="rad" checked> Radrundwege</label>
+        <label class="wahl"><input type="checkbox" data-ebene="ziele" checked> Aussichtspunkte und Rastplätze</label>
+      </fieldset>
+      <button type="button" class="knopf knopf--klein" data-meldung-start>{{icon stoerung}}Störung melden</button>
+    </div>
+    <div class="kartenrahmen">
+      <div id="karte" data-root="{{R}}" data-modus="pfade" role="region" aria-label="Karte der Schutzgebiete mit Besucherpfaden"></div>
+      <p class="karte__hinweis" id="karte-hinweis" hidden>Klicken Sie auf die Stelle der Störung</p>
+    </div>
+    <ul class="legende" aria-label="Legende">
+      <li><span class="legende__flaeche" aria-hidden="true"></span>Schutzgebiet, Betreten nur auf Wegen</li>
+      <li><span class="legende__linie" aria-hidden="true"></span>Wanderpfad</li>
+      <li><span class="legende__linie legende__linie--rad" aria-hidden="true"></span>Radrundweg</li>
+      <li><span class="legende__punkt" aria-hidden="true">{{icon turm}}</span>Aussichtspunkt, Rastplatz, Information</li>
+      <li><span class="legende__gesperrt" aria-hidden="true"></span>Gesperrter Weg (derzeit keine Sperrung eingetragen)</li>
+    </ul>
+    <p class="quelle">Kartengrundlage und Wegeverläufe: © OpenStreetMap-Mitwirkende, Datenlizenz ODbL. Im Projekt pflegt die Redaktion Pfade, Punkte und Sperrungen selbst.</p>
+  </section>
+</div>
+
+<section class="element element--himmelblau" aria-labelledby="liste-titel">
+  {{welle oben himmelblau}}
+  <div class="wrap abschnitt--eng">
+    <h2 id="liste-titel">Alle Wege im Überblick</h2>
+    <p>Die Liste enthält dieselben Inhalte wie die Karte und ist ohne Maus bedienbar.</p>
+    <div class="aufklappgruppe">
+      <details class="aufklapp aufklapp--gross" id="pfade-kh" open>
+        <summary>Königsbrücker Heide</summary>
+        <div class="aufklapp__inhalt"><ul class="pfade">{{pfade kh}}</ul></div>
+      </details>
+      <details class="aufklapp aufklapp--gross" id="pfade-gh">
+        <summary>Gohrischheide Zeithain</summary>
+        <div class="aufklapp__inhalt"><ul class="pfade">{{pfade gh}}</ul></div>
+      </details>
+    </div>
+  </div>
+  {{welle unten himmelblau}}
+</section>
+
+<div class="wrap abschnitt--eng">
+  <h2>Faltblätter</h2>
+  <p class="knopfreihe">
+    <span class="knopf knopf--inaktiv" aria-disabled="true">{{icon download}}Fahrradfahren im Wald (PDF, folgt)</span>
+    <span class="knopf knopf--inaktiv" aria-disabled="true">{{icon download}}Sicher unterwegs im Wald (PDF, folgt)</span>
+  </p>
+</div>
+
+<dialog class="dialog" id="meldung-dialog" aria-labelledby="meldung-titel">
+  <form class="formular" id="meldung-formular" method="dialog" data-demo-formular>
+    <h2 id="meldung-titel">Störung auf einem Besucherpfad melden</h2>
+    <div class="feld">
+      <label for="meldung-art">Art der Störung <span class="pflicht">(Pflichtfeld)</span></label>
+      <select id="meldung-art" required>
+        <option value="">Bitte wählen</option>
+        <option>Baum oder Ast liegt auf dem Weg</option>
+        <option>Weg beschädigt oder überflutet</option>
+        <option>Beschilderung fehlt oder ist beschädigt</option>
+        <option>Sonstiges</option>
+      </select>
+    </div>
+    <div class="feld">
+      <label for="meldung-pfad">Besucherpfad</label>
+      <select id="meldung-pfad"><option value="">Nicht bekannt</option></select>
+    </div>
+    <div class="feld">
+      <label for="meldung-ort">Standort</label>
+      <input type="text" id="meldung-ort" readonly aria-describedby="meldung-ort-hilfe">
+      <p class="feld__hilfe" id="meldung-ort-hilfe">Wird beim Klick in die Karte übernommen. Ohne Karte genügt die Auswahl des Pfads und eine Beschreibung.</p>
+    </div>
+    <div class="feld">
+      <label for="meldung-text">Beschreibung</label>
+      <textarea id="meldung-text"></textarea>
+    </div>
+    <div class="feld">
+      <label for="meldung-foto">Foto (optional)</label>
+      <input type="file" id="meldung-foto" accept="image/*">
+    </div>
+    <p class="formular__ok" hidden>Danke. Im Demonstrator wird keine Meldung versendet.</p>
+    <div class="knopfreihe">
+      <button type="button" class="knopf" data-meldung-schliessen>Schließen</button>
+      <button type="submit" class="knopf knopf--voll">Meldung absenden</button>
+    </div>
+  </form>
+</dialog>

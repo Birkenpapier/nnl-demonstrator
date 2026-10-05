@@ -1,0 +1,10 @@
+<!--META {"pfad": "suche/", "titel": "Suche", "farbe": "dunkelblau", "unterzeile": "Inhalte der Website nach Stichwörtern durchsuchen", "js": ["js/suche.js"], "nicht_suchen": true, "beschreibung": "Suche mit Trefferliste und Direktlink."} -->
+<div class="wrap wrap--text abschnitt">
+  <form class="suche__form" role="search" aria-label="Suchbegriff ändern" action="" method="get">
+    <label class="visually-hidden" for="suche-q">Suchbegriff</label>
+    <input type="search" id="suche-q" name="q" placeholder="Zum Beispiel Biberpfad, Munition oder Führung">
+    <button type="submit" class="knopf knopf--voll">{{icon suche}}Suchen</button>
+  </form>
+  <p class="kalender__status" role="status" id="suche-status">Bitte geben Sie einen Suchbegriff ein.</p>
+  <ol class="treffer" id="suche-treffer" data-root="{{R}}"></ol>
+</div>

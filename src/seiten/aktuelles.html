@@ -1,0 +1,49 @@
+<!--META {"pfad": "aktuelles/", "titel": "Aktuelles", "bild": "kh-schild", "farbe": "aubergine", "unterzeile": "Warnmeldungen, Neuigkeiten und Termine", "js": ["js/kalender.js"], "beschreibung": "Warnmeldungen zu Waldbrandgefahr, Munitionsbelastung und Wegsperrungen, Neuigkeiten und Veranstaltungskalender."} -->
+<section class="wrap abschnitt" id="warnmeldungen" aria-labelledby="warn-titel">
+  <h2 id="warn-titel">Warnmeldungen</h2>
+  <ul class="warnungen" role="list">
+    <li class="warnung warnung--gelb" id="meldung-waldbrand" data-anzeigen-ab="2026-09-01" data-anzeigen-bis="2027-03-31">
+      <h3>{{icon feuer}}Waldbrandgefahrenstufe</h3>
+      <ol class="stufen" aria-label="Stufen 1 bis 5"><li>1</li><li aria-current="true">2</li><li>3</li><li>4</li><li>5</li></ol>
+      <p><strong>Stufe 2 von 5: geringe Gefahr.</strong> Bitte verzichten Sie im Wald auf offenes Feuer und Rauchen.</p>
+      <p class="warnung__gueltig"><span class="marke marke--beispiel">Beispielwert</span> Stand 5. Oktober 2026, 8 Uhr. Die Redaktion pflegt die Stufe täglich.</p>
+    </li>
+    <li class="warnung warnung--dunkel">
+      <h3>{{icon warnung}}Munitionsbelastung</h3>
+      <p>In beiden Schutzgebieten liegen Munitionsreste im Boden. Das Betreten ist nur auf den ausgewiesenen Besucherpfaden erlaubt. Fundstücke nicht berühren, Polizei unter 110 verständigen.</p>
+      <p class="warnung__gueltig"><span class="marke marke--dauer">Dauerhafter Hinweis</span></p>
+    </li>
+    <li class="warnung warnung--beige" data-anzeigen-ab="2026-10-01" data-anzeigen-bis="2026-11-30">
+      <h3>{{icon schliessen}}Wegsperrung</h3>
+      <p>Ein Abschnitt eines Besucherpfads ist wegen Holzarbeiten gesperrt. Eine Umleitung ist ausgeschildert.</p>
+      <p class="warnung__gueltig"><span class="marke marke--beispiel">Fiktive Beispielmeldung</span> Anzeigen bis 30. November 2026</p>
+    </li>
+  </ul>
+</section>
+
+<section class="element element--himmelblau" aria-labelledby="neu-titel">
+  {{welle oben himmelblau}}
+  <div class="wrap abschnitt--eng">
+    <h2 id="neu-titel">Neuigkeiten</h2>
+    <ul class="meldungen">
+      <li class="meldung">
+        <p class="meldung__datum">1. Okt. 2026</p>
+        <div><h3>Waldbrandgefahr auch im Herbst beachten</h3><p>Trockenes Gras und Heide brennen schnell. Bitte verzichten Sie im Wald auf offenes Feuer und Rauchen. <span class="marke marke--beispiel">Beispielmeldung</span></p></div>
+      </li>
+      <li class="meldung" id="meldung-iucn">
+        <p class="meldung__datum">Hintergrund</p>
+        <div><h3>Anerkannt als Wildnisgebiet nach IUCN-Kategorie Ib</h3><p>Die Weltnaturschutzunion IUCN hat die Königsbrücker Heide 2023 als erstes Schutzgebiet in Deutschland in der Kategorie Ib anerkannt. Rund 80 Prozent der Fläche bleiben der natürlichen Entwicklung überlassen.</p></div>
+      </li>
+      <li class="meldung">
+        <p class="meldung__datum">28. Sep. 2026</p>
+        <div><h3>Neue Termine für Führungen im Herbst</h3><p>Wanderungen, Busführungen und ein Vortrag über Wildnis stehen im Kalender. <span class="marke marke--beispiel">Beispielmeldung</span></p></div>
+      </li>
+    </ul>
+  </div>
+  {{welle unten himmelblau}}
+</section>
+
+<section class="wrap abschnitt--eng" aria-labelledby="kalender-titel">
+  <h2 id="kalender-titel">Veranstaltungskalender</h2>
+  {{kalender}}
+</section>

@@ -1,0 +1,18 @@
+<!--META {"pfad": "besuchen/ausflugsziele/", "titel": "Ausflugsziele", "bereich": "besuchen", "bild": "kh-turm", "farbe": "punktblau", "unterzeile": "Aussichtstürme, Rastplätze und Besucherzentrum", "css": ["vendor/leaflet/leaflet.css"], "js": ["vendor/leaflet/leaflet.js", "js/karte.js"], "beschreibung": "Ausflugsziele in der Königsbrücker Heide und der Gohrischheide: Aussichtstürme, Biberhütte und Besucherzentrum."} -->
+<div class="wrap abschnitt">
+  <p class="einleitung" style="max-width: 46rem">Von den Aussichtstürmen blicken Sie weit über Flächen, die nicht betreten werden dürfen. Rastplätze und das Besucherzentrum liegen an den Besucherpfaden.</p>
+  <section class="kartenmodul" id="karte-bereich" aria-labelledby="karte-titel">
+    <h2 id="karte-titel">Ausflugsziele auf der Karte</h2>
+    <div class="karte__werkzeuge">
+      <div class="karte__gebiete" role="group" aria-label="Kartenausschnitt wählen">
+        <button type="button" class="knopf knopf--klein" data-gebiet="alle" aria-pressed="true">Beide Gebiete</button>
+        <button type="button" class="knopf knopf--klein" data-gebiet="kh" aria-pressed="false">Königsbrücker Heide</button>
+        <button type="button" class="knopf knopf--klein" data-gebiet="gh" aria-pressed="false">Gohrischheide</button>
+      </div>
+    </div>
+    <div class="kartenrahmen"><div id="karte" data-root="{{R}}" data-modus="ziele" role="region" aria-label="Karte der Ausflugsziele"></div></div>
+    <p class="quelle">Kartengrundlage und Lagen: © OpenStreetMap-Mitwirkende, Datenlizenz ODbL.</p>
+  </section>
+  <h2 style="margin-top: 3rem">Alle Ausflugsziele</h2>
+  <ul class="ziele">{{ziele}}</ul>
+</div>

@@ -1,0 +1,29 @@
+<!--META {"pfad": "kontakt/", "titel": "Kontakt", "farbe": "dunkelblau", "unterzeile": "Ansprechpersonen der NSG-Verwaltung", "beschreibung": "Kontakt zur NSG-Verwaltung mit Anfrageformular."} -->
+<div class="wrap abschnitt">
+  <p class="einleitung" style="max-width: 46rem">Postanschrift, Besucheradresse, Telefon und E-Mail werden im Projekt mit den Daten des Auftraggebers befüllt. Im Demonstrator stehen hier Platzhalter.</p>
+  <ul class="kontakte" role="list">
+    <li><h2 class="h3">Poststelle</h2><p class="platzhaltertext">Anschrift, Telefon und E-Mail folgen</p></li>
+    <li><h2 class="h3">Gebietsentwicklung</h2><p class="platzhaltertext">Ansprechperson, Telefon und E-Mail folgen</p></li>
+    <li><h2 class="h3">Betriebliche Dienstleistungen</h2><p class="platzhaltertext">Ansprechperson, Telefon und E-Mail folgen</p></li>
+    <li><h2 class="h3">Öffentlichkeitsarbeit</h2><p class="platzhaltertext">Ansprechperson, Telefon und E-Mail folgen</p></li>
+  </ul>
+  <div class="zweispaltig" style="margin-top: var(--abstand)">
+    <section aria-labelledby="formular-titel">
+      <h2 id="formular-titel">Anfrage senden</h2>
+      <form class="formular" data-demo-formular novalidate>
+        <div class="feld"><label for="k-name">Name <span class="pflicht">(Pflichtfeld)</span></label><input type="text" id="k-name" autocomplete="name" required></div>
+        <div class="feld"><label for="k-mail">E-Mail <span class="pflicht">(Pflichtfeld)</span></label><input type="email" id="k-mail" autocomplete="email" required></div>
+        <div class="feld"><label for="k-thema">Thema</label><select id="k-thema"><option>Allgemeine Anfrage</option><option>Gestattung</option><option>Führung oder Gruppe</option><option>Presse</option></select></div>
+        <div class="feld"><label for="k-text">Nachricht <span class="pflicht">(Pflichtfeld)</span></label><textarea id="k-text" required></textarea></div>
+        <div class="feld"><label for="k-datei">Anhang als PDF (optional)</label><input type="file" id="k-datei" accept="application/pdf" aria-describedby="k-datei-hilfe"><p class="feld__hilfe" id="k-datei-hilfe">Zum Beispiel ein Antrag auf Gestattung, höchstens 10 MB.</p></div>
+        <p class="formular__ok" hidden>Danke. Im Demonstrator wird keine Nachricht versendet.</p>
+        <button type="submit" class="knopf knopf--voll">{{icon mail}}Anfrage senden</button>
+      </form>
+    </section>
+    <section id="social-media" aria-labelledby="social-titel">
+      <h2 id="social-titel">Social Media</h2>
+      <p>Die Links zu Facebook, Instagram und YouTube werden mit den Konten des Auftraggebers verknüpft.</p>
+      <p class="knopfreihe"><span class="knopf knopf--klein knopf--inaktiv" aria-disabled="true">{{icon facebook}}Facebook</span><span class="knopf knopf--klein knopf--inaktiv" aria-disabled="true">{{icon instagram}}Instagram</span><span class="knopf knopf--klein knopf--inaktiv" aria-disabled="true">{{icon youtube}}YouTube</span></p>
+    </section>
+  </div>
+</div>
